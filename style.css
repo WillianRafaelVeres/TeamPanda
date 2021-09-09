@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+}
+
+.linkMenu{
+    text-decoration: none;
+    color: rgb(255, 123, 0);
+}
+
+header{
+    overflow: hidden;
+    margin: auto;
+    width: 100%;
+    font-size: 25px;
+    color: rgb(255, 123, 0);
+    font-weight: bolder;
+    position: fixed;
+    right: 0;
+    box-shadow: rgb(255, 123, 0) 0px 0px 15px;
+}
+
+#menu{
+    background-color: black;
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#listMenu{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+li{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#imgLogo{
+    max-width: 50px;
+}
+
+#divImgLogo{
+    border-radius: 50%;
+    box-shadow: rgb(255, 123, 0) 0px 0px 15px;
+}
+
+h2{
+    text-align: center;
+    font-weight: bolder;
+}
+
+#container1{
+    height: 200px;
+    background-color:white;
+}
+
+#container2{
+    background-color:black;
+    color: rgb(255, 123, 0);
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    padding-right: 100px;
+}
+
+#imgTeacher{
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.awards_0{
+    display: block;
+    margin: 10px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.leftImgAwards{
+    max-width: 250px;
+    border-radius: 20px;
+    box-shadow: rgb(255, 123, 0) 0px 0px 15px;
+    display: inline-block;
+    position: relative;
+}
+
+.rightImgAwards{
+    max-width: 250px;
+    border-radius: 20px;
+    box-shadow: rgb(255, 123, 0) 0px 0px 15px;
+    display: block;
+    position: relative;
+    margin-left: auto;
+}
+
+.rightTextAwards{
+    display: inline-block;
+    position: absolute;
+    padding-left: 50px;
+    text-align: center;
+
+}
+.leftTextAwards{
+    display: inline-block;
+    position: absolute;
+    padding-right: 50px;
+    text-align: center;
+    margin-left: auto;
+    max-width: 70%;
+}
+
+#container3{
+    background-color:white;
+    color: rgb(255, 123, 0);
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    padding-right: 100px;
+}
+
+#imgsAcademy{
+
+}
+
+.AcademyPhoto{
+    width: 200px;
+    margin: 10px;
+}
+
+#line1Academy{
+    
+}
+
