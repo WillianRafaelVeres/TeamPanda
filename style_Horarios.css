@@ -30,7 +30,6 @@ li{
     margin-left: 10px;
     margin-right: 10px;
     list-style: none;
-    
 }
 
 .listMenu{
@@ -58,63 +57,6 @@ h2{
     padding-left: 50px;
     padding-right: 50px;
 }
-
-#container2{
-    background-color:rgb(43, 35, 35);
-    color: rgb(255, 123, 0);
-    padding-top: 10px;
-    padding-left: 100px;
-    padding-bottom: 10px;
-    padding-right: 100px;
-}
-
-#imgTeacher{
-    width: 300px;
-    display: block;
-    margin: auto;
-    border-radius: 20px;
-}
-
-.awards_0{
-    display: block;
-    margin: 10px;
-    position: relative;
-    margin-bottom: 20px;
-}
-
-.leftImgAwards{
-    max-width: 250px;
-    border-radius: 20px;
-    box-shadow: rgb(255, 123, 0) 0px 0px 15px;
-    display: inline-block;
-    position: relative;
-}
-
-.rightImgAwards{
-    max-width: 250px;
-    border-radius: 20px;
-    box-shadow: rgb(255, 123, 0) 0px 0px 15px;
-    display: block;
-    position: relative;
-    margin-left: auto;
-}
-
-.rightTextAwards{
-    display: inline-block;
-    position: absolute;
-    padding-left: 50px;
-    text-align: center;
-
-}
-.leftTextAwards{
-    display: inline-block;
-    position: absolute;
-    padding-right: 50px;
-    text-align: center;
-    margin-left: auto;
-    max-width: 70%;
-}
-
 
 
 footer{
