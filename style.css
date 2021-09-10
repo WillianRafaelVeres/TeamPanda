@@ -6,14 +6,16 @@ a{
     text-decoration: none;
     color: rgb(255, 123, 0);
 }
-
+a:hover{
+    color: white;
+}
 header{
     overflow: hidden;
     margin: auto;
     width: 100%;
     font-size: 25px;
-    color: rgb(255, 123, 0);
     font-weight: bolder;
+    font-family: 'Century Gothic', 'Consolas', Georgia, 'Times New Roman', Times, serif;
 }
 
 #menu{
@@ -37,6 +39,7 @@ li{
     transform: translateY(-10px);
 }
 
+
 #imgLogo{
     max-width: 50px;
 }
@@ -49,6 +52,11 @@ li{
 h2{
     text-align: center;
     font-weight: bolder;
+    font-family: 'Century Gothic', 'Consolas', Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    font-family: 'Century Gothic','Consolas', Georgia, 'Times New Roman', Times, serif;
 }
 
 #container1{
@@ -59,70 +67,13 @@ h2{
     padding-right: 50px;
 }
 
-#container2{
-    background-color:rgb(43, 35, 35);
-    color: rgb(255, 123, 0);
-    padding-top: 10px;
-    padding-left: 100px;
-    padding-bottom: 10px;
-    padding-right: 100px;
-}
-
-#imgTeacher{
-    width: 300px;
-    display: block;
-    margin: auto;
-    border-radius: 20px;
-}
-
-.awards_0{
-    display: block;
-    margin: 10px;
-    position: relative;
-    margin-bottom: 20px;
-}
-
-.leftImgAwards{
-    max-width: 250px;
-    border-radius: 20px;
-    box-shadow: rgb(255, 123, 0) 0px 0px 15px;
-    display: inline-block;
-    position: relative;
-}
-
-.rightImgAwards{
-    max-width: 250px;
-    border-radius: 20px;
-    box-shadow: rgb(255, 123, 0) 0px 0px 15px;
-    display: block;
-    position: relative;
-    margin-left: auto;
-}
-
-.rightTextAwards{
-    display: inline-block;
-    position: absolute;
-    padding-left: 50px;
-    text-align: center;
-
-}
-.leftTextAwards{
-    display: inline-block;
-    position: absolute;
-    padding-right: 50px;
-    text-align: center;
-    margin-left: auto;
-    max-width: 70%;
-}
-
-
-
 footer{
     background-color: black;
     color: white;
     position: relative;
     width: 100%;
     height: 150px;
+    font-family: 'Century Gothic', 'Consolas', Georgia, 'Times New Roman', Times, serif;
 }
 
 #icons{
@@ -147,6 +98,7 @@ footer{
     margin-right: 8%;
     padding-left: 10px;
     display: inline-block;
+    transform: translateY(-10px);
 }
 
 #address{
@@ -154,6 +106,7 @@ footer{
     display: inline-block;
     margin-left: 17%;
     text-align: center;
+    transform: translateY(-1px);
 }
 
 #Designer{
@@ -163,4 +116,5 @@ footer{
     text-align: center;
     display: inline;
     float: right;
+    transform: translateY(-5px);
 }
