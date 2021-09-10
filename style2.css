@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+}
+
+.linkMenu{
+    text-decoration: none;
+    color: rgb(255, 123, 0);
+}
+
+header{
+    overflow: hidden;
+    margin: auto;
+    width: 100%;
+    font-size: 25px;
+    color: rgb(255, 123, 0);
+    font-weight: bolder;
+    position: fixed;
+    right: 0;
+    box-shadow: rgb(255, 123, 0) 0px 0px 15px;
+}
+
+#menu{
+    background-color: black;
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#listMenu{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+li{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style: none;
+    
+}
+
+#imgLogo{
+    max-width: 50px;
+}
+
+#divImgLogo{
+    border-radius: 50%;
+    box-shadow: rgb(255, 123, 0) 0px 0px 15px;
+}
+
+h2{
+    text-align: center;
+    font-weight: bolder;
+}
+
+#container1{
+    height: 500px;
+    background-color:rgb(43, 35, 35);
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+footer{
+    /*height: 10px;*/
+    background-color:black;
+    color: white;
+    text-align: center;
+}
+
+#icons{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.footerIcone{
+    max-width: 55px;
+}
+
+#footerString{
+    margin: 0;
+    padding: 0;
+}
+
+#CNPJ{
+    float: left;
+}
+
+#endereco{
+    text-align: center;
+}
+
+#Designer{
+    display: block;
+    float: right;
+    position: relative;
+}
