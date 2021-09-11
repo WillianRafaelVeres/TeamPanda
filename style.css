@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'Century Gothic', 'Consolas', Georgia, 'Times New Roman', Times, serif;
 }
 
 a{
@@ -21,9 +22,9 @@ header{
 #menu{
     background-color: black;
     text-align: center;
-    list-style: none;
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 li{
@@ -31,7 +32,6 @@ li{
     padding: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    list-style: none;
     
 }
 
@@ -53,6 +53,7 @@ h2{
     text-align: center;
     font-weight: bolder;
     font-family: 'Century Gothic', 'Consolas', Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
 }
 
 p{
@@ -60,12 +61,26 @@ p{
 }
 
 #container1{
-    height: 300px;
+    /*#height: 300px;*/
     background-color:rgb(26, 22, 22);
     padding: 20px;
     padding-left: 50px;
     padding-right: 50px;
+    text-align: center;
+    color: rgb(255, 123, 0) 0px 0px 15px;
 }
+
+h3{
+    transform: translateY(100px);
+    color: rgb(255, 123, 0);
+    opacity: 1;
+}
+
+/*.img_container1{
+    opacity: 0.5;
+    width: 1100px;
+    height: 500px;
+}*/
 
 footer{
     background-color: black;
@@ -95,7 +110,7 @@ footer{
 }
 
 #CNPJ{
-    margin-right: 8%;
+    margin-right: 7%;
     padding-left: 10px;
     display: inline-block;
     transform: translateY(-10px);
@@ -104,7 +119,7 @@ footer{
 #address{
     position: relative;
     display: inline-block;
-    margin-left: 17%;
+    margin-left: 13%;
     text-align: center;
     transform: translateY(-1px);
 }

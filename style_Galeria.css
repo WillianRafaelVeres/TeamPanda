@@ -7,6 +7,14 @@
     padding-right: 100px;
 }
 
+#container_backGround1{
+    background: url(images/container1_galeria.jpeg);
+    opacity: 1;
+    width: 1100px;
+    height: 500px;
+    font-size: 50px;
+}
+
 #imgsGallery{
     text-align: center;
 }
@@ -19,6 +27,7 @@
     border-radius: 20px;
     transition: -webkit-transform .3s;
     width: 300px;
+    height: 250px;
 }
 
 /*ATENÇAO: COMANDO ABAIXO AINDA NÃO ESTÁ CONFIRMADO*/
