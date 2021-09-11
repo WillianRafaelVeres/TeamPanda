@@ -1,3 +1,4 @@
+
 #container2{
     background-color:rgb(43, 35, 35);
     color: rgb(255, 123, 0);
@@ -5,14 +6,6 @@
     padding-left: 100px;
     padding-bottom: 10px;
     padding-right: 100px;
-}
-
-#container_backGround1{
-    background: url(images/container1_galeria.jpeg);
-    opacity: 1;
-    width: 1100px;
-    height: 500px;
-    font-size: 50px;
 }
 
 #imgsGallery{
@@ -27,10 +20,10 @@
     border-radius: 20px;
     transition: -webkit-transform .3s;
     width: 300px;
-    height: 250px;
+    height: 300px;
 }
 
 /*ATENÇAO: COMANDO ABAIXO AINDA NÃO ESTÁ CONFIRMADO*/
 .galleryPhoto:hover{
-    -webkit-transform: scale(2);
+    -webkit-transform: scale(1.75);
 }

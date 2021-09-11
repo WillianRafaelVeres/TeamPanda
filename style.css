@@ -61,34 +61,21 @@ p{
 }
 
 #container1{
-    /*#height: 300px;*/
     background-color:rgb(26, 22, 22);
-    padding: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
     text-align: center;
-    color: rgb(255, 123, 0) 0px 0px 15px;
-}
-
-h3{
-    transform: translateY(100px);
+    margin: auto;
+    padding: 20px;
+    font-size: 50px;
     color: rgb(255, 123, 0);
-    opacity: 1;
 }
-
-/*.img_container1{
-    opacity: 0.5;
-    width: 1100px;
-    height: 500px;
-}*/
 
 footer{
     background-color: black;
     color: white;
-    position: relative;
+    position: absolute;
     width: 100%;
-    height: 150px;
     font-family: 'Century Gothic', 'Consolas', Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
 }
 
 #icons{
@@ -104,32 +91,67 @@ footer{
     margin-right: 30px;
 }
 
-#footerString{
-    margin: 0;
-    padding: 0;
+#div1_footer{
+    text-align: center;
 }
 
 #CNPJ{
-    margin-right: 7%;
-    padding-left: 10px;
     display: inline-block;
-    transform: translateY(-10px);
+    padding-right: 10px;
 }
 
 #address{
-    position: relative;
     display: inline-block;
-    margin-left: 13%;
-    text-align: center;
-    transform: translateY(-1px);
+    padding-left: 10px;
 }
 
 #Designer{
-    margin-right: 20px;
-    margin-left: 17%;
-    margin-top: 34px;
+    margin-top: 5px;
+    display: block;
     text-align: center;
-    display: inline;
-    float: right;
-    transform: translateY(-5px);
+}
+
+@media screen and (max-width:400px) {
+
+    header{
+        font-size: 12px;
+    }
+    
+    li{
+        padding: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    #imgLogo{
+        max-width: 40px;
+    }
+    
+    #divImgLogo{
+        border-radius: 50%;
+        box-shadow: rgb(255, 123, 0) 0px 0px 15px;
+    } 
+    
+    h2{
+        font-size: 25px;
+    }
+    
+    #container1{
+        padding: 10px;
+        font-size: 20px;
+    }
+    
+    #googleMaps{
+        height: 150px;
+    }
+
+    footer{
+        font-size: 8px;
+    }
+    
+    .footerIcone{
+        max-width: 40px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
