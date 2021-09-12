@@ -37,3 +37,37 @@
 .AcademyPhoto:hover{
     -webkit-transform: scale(2);
 }
+
+@media screen and (max-width:900px) {
+
+    #container2{
+        padding-top: 10px;
+        padding-left: 25px;
+        padding-bottom: 10px;
+        padding-right: 25px;
+    }
+    
+    .AcademyPhoto{
+        width: 300px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+}
+
+@media screen and (max-width:750px) {
+    
+    .AcademyPhoto{
+        width: 200x;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+}
+
+@media screen and (max-width:450px) {
+
+    #imgAcademy{
+        width: 300px;
+    }
+}

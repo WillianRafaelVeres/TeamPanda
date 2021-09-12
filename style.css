@@ -112,11 +112,6 @@ footer{
 }
 
 @media screen and (max-width:900px) {
-
-    body{
-        max-width: 900px;
-    }
-
     header{
         font-size:35px;
     }
@@ -167,10 +162,6 @@ footer{
 
 @media screen and (max-width:725px) {
 
-    body{
-        max-width: 725px;
-    }
-
     header{
         font-size:30px;
     }
@@ -219,10 +210,6 @@ footer{
 
 @media screen and (max-width:650px) {
 
-    body{
-        max-width: 650px;
-    }
-
     header{
         font-size:20px;
     }
@@ -241,10 +228,6 @@ footer{
 }
 
 @media screen and (max-width:500px) {
-
-    body{
-        max-width: 500px;
-    }
 
     header{
         font-size:14px;
