@@ -111,20 +111,20 @@ footer{
     text-align: center;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:900px) {
 
     body{
-        max-width: 400px;
+        max-width: 900px;
     }
 
     header{
-        font-size:10px;
+        font-size:35px;
     }
     
     li{
-        padding: 2px;
-        margin-left: 2px;
-        margin-right: 2px;
+        padding: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     .listMenu{
@@ -132,40 +132,151 @@ footer{
     }
     
     #imgLogo{
-        max-width: 20px;
+        max-width: 50px;
     }
     
-    #divImgLogo{
-        border-radius: 50%;
-    } 
-    
     h2{
-        font-size: 10px;
+        font-size: 46px;
     }
     
     #container1{
         padding: 10px;
-        font-size: 8px;
+        font-size: 50px;
     }
 
     #container_backGround1{
-        max-width: 300px;
+        max-width: 900px;
         margin: auto;
     }
     
     #googleMaps{
-        height: 100px;
+        height: 200px;
     }
 
     footer{
-        font-size: 8px;
-        max-width: 400px;
+        font-size: 12px;
+        max-width: 100%;
     }
     
     .footerIcone{
-        max-width: 30px;
+        max-width: 50px;
         margin-left: 5px;
         margin-right: 5px;
+    }
+}
+
+@media screen and (max-width:725px) {
+
+    body{
+        max-width: 725px;
+    }
+
+    header{
+        font-size:30px;
+    }
+    
+    li{
+        padding: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .listMenu{
+        transform: translateY(0);
+    }
+    
+    #imgLogo{
+        max-width: 40px;
+    }
+    
+    h2{
+        font-size: 40px;
+    }
+    
+    #container1{
+        font-size: 42px;
+    }
+
+    #container_backGround1{
+        margin: auto;
+    }
+    
+    #googleMaps{
+        height: 200px;
+    }
+
+    footer{
+        font-size: 12px;
+        max-width: 100%;
+    }
+    
+    .footerIcone{
+        max-width: 50px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width:650px) {
+
+    body{
+        max-width: 650px;
+    }
+
+    header{
+        font-size:20px;
+    }
+    
+    #imgLogo{
+        max-width: 35px;
+    }
+    
+    h2{
+        font-size: 30px;
+    }
+    
+    #container1{
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    body{
+        max-width: 500px;
+    }
+
+    header{
+        font-size:14px;
+    }
+    
+    #imgLogo{
+        max-width: 25px;
+    }
+    
+    h2{
+        font-size: 20px;
+    }
+    
+    #container1{
+        font-size: 20px;
+    }
+    
+    #googleMaps{
+        height: 150px;
+    }
+   
+}
+
+@media screen and (max-width:400px) {
+
+    footer{
+        font-size: 10px;
+        max-width: 100%;
+    }
+    
+    .footerIcone{
+        max-width: 40px;
     }
 
     #CNPJ{
@@ -182,4 +293,24 @@ footer{
         display: block;
         text-align: center;
     }
+}
+
+@media screen and (max-width:350px) {
+
+    header{
+        font-size:10px;
+    }
+    
+    #imgLogo{
+        max-width: 20px;
+    }
+    
+    h2{
+        font-size: 15px;
+    }
+    
+    #container1{
+        font-size: 15px;
+    }
+
 }
