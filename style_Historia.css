@@ -9,8 +9,8 @@
 }
 article{
     text-align: center;
-    line-height: 23px;
-    font-size: 20px;
+    line-height: 43px;
+    font-size: 40px;
 }
 
 #imgTeacher{
@@ -65,25 +65,25 @@ article{
 
     #container2{
         padding-top: 10px;
-        padding-left: 20px;
+        padding-left: 10px;
         padding-bottom: 10px;
-        padding-right: 20px;
+        padding-right: 10px;
     }
     article{
-        line-height: 10px;
-        font-size: 8px;
-        max-width: 200px;
+        line-height: 13px;
+        font-size: 10px;
+        max-width: 300px;
         margin: auto;
     }
     
     #imgTeacher{
-        width: 150px;
+        width: 200px;
     }
     
     .awards_0{
         margin: 5px;
         margin-bottom: 15px;
-        font-size: 8px;
+        font-size: 10px;
     }
 
      .img_Awards{
