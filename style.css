@@ -113,45 +113,73 @@ footer{
 
 @media screen and (max-width:400px) {
 
+    body{
+        max-width: 200px;
+    }
+
     header{
-        font-size: 12px;
+        font-size:8px;
     }
     
     li{
-        padding: 5px;
-        margin-left: 5px;
-        margin-right: 5px;
+        padding: 2px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    .listMenu{
+        transform: translateY(0);
     }
     
     #imgLogo{
-        max-width: 40px;
+        max-width: 15px;
     }
     
     #divImgLogo{
         border-radius: 50%;
-        box-shadow: rgb(255, 123, 0) 0px 0px 15px;
     } 
     
     h2{
-        font-size: 25px;
+        font-size: 8px;
     }
     
     #container1{
         padding: 10px;
-        font-size: 20px;
+        font-size: 6px;
+    }
+
+    #container_backGround1{
+        max-width: 200px;
+        margin: auto;
     }
     
     #googleMaps{
-        height: 150px;
+        height: 100px;
     }
 
     footer{
-        font-size: 8px;
+        font-size: 6px;
+        max-width: 200px;
     }
     
     .footerIcone{
-        max-width: 40px;
-        margin-left: 10px;
-        margin-right: 10px;
+        max-width: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #CNPJ{
+        display: block;
+        padding-bottom: 5px;
+    }
+    
+    #address{
+        display: block;
+    }
+    
+    #Designer{
+        margin-top: 5px;
+        display: block;
+        text-align: center;
     }
 }

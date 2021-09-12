@@ -60,3 +60,55 @@ article{
     margin-left: auto;
     max-width: 70%;
 }
+
+@media screen and (max-width:400px) {
+
+    #container2{
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+    }
+    article{
+        line-height: 10px;
+        font-size: 8px;
+        max-width: 200px;
+        margin: auto;
+    }
+    
+    #imgTeacher{
+        width: 150px;
+    }
+    
+    .awards_0{
+        margin: 5px;
+        margin-bottom: 15px;
+        font-size: 8px;
+    }
+
+     .img_Awards{
+         position: relative;
+        display: block;
+        margin: auto;
+     }
+    
+    .leftImgAwards{
+        max-width: 150px; 
+    }
+    
+    .rightImgAwards{
+        max-width: 150px;
+    }
+    
+    .rightTextAwards{
+        text-align: center;
+        display: block;
+        margin: auto;
+    
+    }
+    .leftTextAwards{
+        text-align: center;
+        display: inline-block;
+    }
+
+}
