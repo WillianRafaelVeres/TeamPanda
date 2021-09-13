@@ -40,7 +40,6 @@ th{
     }
     
     th{
-        padding: 10px;
         font-size: 15px;
     }
 }
@@ -66,14 +65,8 @@ th{
         width: 300px;
     }
     
-    #container2{
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-    
     th{
         padding: 3px;
-        font-size: 10px;
     }
 }
 

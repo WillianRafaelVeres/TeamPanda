@@ -79,37 +79,6 @@ article{
     #imgTeacher{
         width: 500px;
     }
-    
-    .awards_0{
-        margin: 5px;
-        margin-bottom: 15px;
-        font-size: 10px;
-    }
-
-     .img_Awards{
-         position: relative;
-        display: block;
-        margin: auto;
-     }
-    
-    .leftImgAwards{
-        max-width: 150px; 
-    }
-    
-    .rightImgAwards{
-        max-width: 150px;
-    }
-    
-    .rightTextAwards{
-        text-align: center;
-        display: block;
-        margin: auto;
-    
-    }
-    .leftTextAwards{
-        text-align: center;
-        display: inline-block;
-    }
 
 }
 
@@ -119,10 +88,6 @@ article{
         line-height: 36px;
         font-size: 32px;
         max-width: 95%;
-    }
-    
-    #imgTeacher{
-        width: 500px;
     }
     
 }
@@ -162,5 +127,4 @@ article{
         font-size: 12px;
         margin: auto;
     }
-
 }
