@@ -1,7 +1,7 @@
 
 #container2{
     background-color:rgb(43, 35, 35);
-    color: rgb(255, 123, 0);
+    color: white;
     padding-top: 10px;
     padding-left: 100px;
     padding-bottom: 10px;
@@ -31,7 +31,7 @@ article{
 .leftImgAwards{
     max-width: 250px;
     border-radius: 20px;
-    box-shadow: rgb(255, 123, 0) 0px 0px 15px;
+    box-shadow: white 0px 0px 15px;
     display: inline-block;
     position: relative;
 }
@@ -39,7 +39,7 @@ article{
 .rightImgAwards{
     max-width: 250px;
     border-radius: 20px;
-    box-shadow: rgb(255, 123, 0) 0px 0px 15px;
+    box-shadow: white 0px 0px 15px;
     display: block;
     position: relative;
     margin-left: auto;
