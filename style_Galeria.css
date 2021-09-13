@@ -42,6 +42,10 @@
         width: 200px;
         height: 200px;
     }
+
+    .galleryPhoto:hover{
+        -webkit-transform: scale(1.30);
+    }
        
 }
 
