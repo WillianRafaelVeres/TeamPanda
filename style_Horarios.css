@@ -34,6 +34,7 @@ th{
 }
 
 @media screen and (max-width:750px) {  
+
     #container2{
         padding-left: 75px;
         padding-right: 75px;
@@ -45,6 +46,7 @@ th{
 }
 
 @media screen and (max-width:650px) {
+
     #imgHorario{
         width: 400px;
     }
@@ -61,6 +63,7 @@ th{
 }
 
 @media screen and (max-width:500px) {
+
     #imgHorario{
         width: 300px;
     }
@@ -71,6 +74,7 @@ th{
 }
 
 @media screen and (max-width:400px) {
+    
     #imgHorario{
         width: 250px;
     }

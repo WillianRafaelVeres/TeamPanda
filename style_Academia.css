@@ -34,7 +34,6 @@
     transition: -webkit-transform .3s;
 }
 
-/*ATENÇAO: COMANDO ABAIXO AINDA NÃO ESTÁ CONFIRMADO*/
 .AcademyPhoto:hover{
     -webkit-transform: scale(2);
 }

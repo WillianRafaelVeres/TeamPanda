@@ -152,6 +152,7 @@ h4{
         max-width: 50px;
         margin-left: 5px;
         margin-right: 5px;
+        transform: translateX(-50%);
     }
 }
 
@@ -226,6 +227,7 @@ h4{
     
     .footerIcone{
         max-width: 35px;
+        transform: translateX(-50%);
     }
 
     #CNPJ{

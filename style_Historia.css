@@ -20,47 +20,6 @@ article{
     border-radius: 20px;
 }
 
-.awards_0{
-    display: block;
-    margin: 10px;
-    position: relative;
-    margin-bottom: 20px;
-    font-size: 20px;
-}
-
-.leftImgAwards{
-    max-width: 250px;
-    border-radius: 20px;
-    box-shadow: white 0px 0px 15px;
-    display: inline-block;
-    position: relative;
-}
-
-.rightImgAwards{
-    max-width: 250px;
-    border-radius: 20px;
-    box-shadow: white 0px 0px 15px;
-    display: block;
-    position: relative;
-    margin-left: auto;
-}
-
-.rightTextAwards{
-    display: inline-block;
-    position: absolute;
-    padding-left: 50px;
-    text-align: center;
-
-}
-.leftTextAwards{
-    display: inline-block;
-    position: absolute;
-    padding-right: 50px;
-    text-align: center;
-    margin-left: auto;
-    max-width: 70%;
-}
-
 @media screen and (max-width:900px) {
 
     #container2{

@@ -23,7 +23,6 @@
     height: 300px;
 }
 
-/*ATENÇAO: COMANDO ABAIXO AINDA NÃO ESTÁ CONFIRMADO*/
 .galleryPhoto:hover{
     -webkit-transform: scale(1.75);
 }
